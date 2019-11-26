@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+.container {
+  background-color: #041b17;
+  height: 100vh;
+  padding: 2rem; }
+
+.weeks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  height: 100%; }
+  .weeks .week {
+    text-align: center;
+    overflow-y: scroll;
+    padding: 2rem;
+    background: #a7c2be;
+    color: #041b17; }
+    .weeks .week h2 {
+      margin-bottom: 0.5rem; }
+    .weeks .week .task {
+      margin-bottom: 0.5rem;
+      padding: 0.3rem;
+      border: 1px solid #041b17; }
+    .weeks .week .list {
+      margin: 0.5rem;
+      list-style: none;
+      padding: 1rem; }
+      .weeks .week .list li {
+        display: flex;
+        justify-content: space-between; }
+        .weeks .week .list li i {
+          color: #3e857a; }
+  .weeks .btn {
+    border: 1px solid #041b17;
+    padding: 0.5rem;
+    background-color: #3e857a;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 1rem; }
+    .weeks .btn-2 {
+      margin-top: 0.5rem;
+      padding: 0.5rem 2rem; }

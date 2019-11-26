@@ -1,0 +1,76 @@
+//Variables
+$dark-color: #041b17;
+$light-color: #a7c2be;
+$main-color: #3e857a;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+    background-color: $dark-color;
+    height: 100vh;
+    padding: 2rem;;
+  }
+  
+  .weeks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    height: 100%;
+    
+
+    .week {
+        text-align: center;
+        overflow-y: scroll;
+        padding: 2rem;
+        background: $light-color;
+        color: $dark-color;
+        
+        h2 {
+          margin-bottom: 0.5rem;
+        }
+        .task {
+          margin-bottom: 0.5rem;;
+          padding: 0.3rem;
+          border: 1px solid $dark-color;
+        }
+
+        .list {
+          margin: 0.5rem;
+          list-style: none;
+    padding: 1rem;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+
+      i {
+        color: $main-color;
+      }
+    }
+        }
+      }
+
+      .btn {
+        border: 1px solid $dark-color;
+        padding: 0.5rem;
+        background-color: $main-color;
+        color: #fff;
+        cursor: pointer;
+        margin-bottom: 1rem;
+
+        &-2 {
+          margin-top: 0.5rem;
+          padding: 0.5rem 2rem;
+        }
+      
+  }
+}
+   
+
+  
+  
+  
+  

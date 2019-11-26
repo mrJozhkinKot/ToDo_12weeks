@@ -1,0 +1,14 @@
+{
+  "name": "todo_12weeks",
+  "version": "1.0.0",
+  "description": "todo list for 12 weeks",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
